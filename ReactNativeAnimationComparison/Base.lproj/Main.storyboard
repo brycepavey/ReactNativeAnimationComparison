@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rmQ-J7-GHF">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ReactNativeAnimationComparison" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AE2-2d-cp3">
+                                <rect key="frame" x="180" y="322" width="240" height="129"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mIJ-rP-7Rr">
+                                <rect key="frame" x="180" y="451" width="240" height="129"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="mLm-jh-Hbp"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WNG-ny-UfN">
+                                <rect key="frame" x="180" y="64" width="240" height="129"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p8j-zP-Fah">
+                                <rect key="frame" x="242" y="114" width="117" height="30"/>
+                                <state key="normal" title="Native Animation"/>
+                                <connections>
+                                    <segue destination="cnC-1g-DAU" kind="show" id="3Hy-3Y-5ep"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PDc-ci-eBE">
+                                <rect key="frame" x="249" y="372" width="102" height="30"/>
+                                <state key="normal" title="CSS Animation"/>
+                                <connections>
+                                    <segue destination="jgV-qK-l3m" kind="show" id="LLa-8b-sHY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKh-7W-coP">
+                                <rect key="frame" x="219" y="500" width="162" height="30"/>
+                                <state key="normal" title="React-Native Animation"/>
+                                <connections>
+                                    <segue destination="HJg-zF-PBE" kind="show" id="bae-4E-WQf"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7br-0f-CTn">
+                                <rect key="frame" x="180" y="193" width="240" height="129"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrv-qA-D5T">
+                                <rect key="frame" x="228" y="243" width="145" height="30"/>
+                                <state key="normal" title="JavaScript Animation"/>
+                                <connections>
+                                    <segue destination="aqB-66-eYC" kind="show" id="nHh-pl-z55"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7br-0f-CTn" firstAttribute="height" secondItem="WNG-ny-UfN" secondAttribute="height" id="1cO-vA-8JN"/>
+                            <constraint firstItem="p8j-zP-Fah" firstAttribute="centerX" secondItem="WNG-ny-UfN" secondAttribute="centerX" id="2qj-v0-IOT"/>
+                            <constraint firstItem="AE2-2d-cp3" firstAttribute="top" secondItem="7br-0f-CTn" secondAttribute="bottom" id="3s5-pg-gBl"/>
+                            <constraint firstItem="PDc-ci-eBE" firstAttribute="top" secondItem="AE2-2d-cp3" secondAttribute="bottom" constant="-79" id="72l-7N-q4s"/>
+                            <constraint firstItem="mIJ-rP-7Rr" firstAttribute="top" secondItem="AE2-2d-cp3" secondAttribute="bottom" id="DdO-L0-u0g"/>
+                            <constraint firstItem="qKh-7W-coP" firstAttribute="centerX" secondItem="mIJ-rP-7Rr" secondAttribute="centerX" id="GQE-29-Y7J"/>
+                            <constraint firstItem="mIJ-rP-7Rr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IUB-hl-zRv"/>
+                            <constraint firstItem="hrv-qA-D5T" firstAttribute="centerX" secondItem="7br-0f-CTn" secondAttribute="centerX" id="Lrb-jT-0HN"/>
+                            <constraint firstItem="7br-0f-CTn" firstAttribute="width" secondItem="WNG-ny-UfN" secondAttribute="width" id="S6n-eP-fL3"/>
+                            <constraint firstItem="qKh-7W-coP" firstAttribute="leading" secondItem="mIJ-rP-7Rr" secondAttribute="trailing" constant="-201" id="SSI-QL-q7p"/>
+                            <constraint firstItem="PDc-ci-eBE" firstAttribute="centerY" secondItem="AE2-2d-cp3" secondAttribute="centerY" id="Vrz-eu-Y9P"/>
+                            <constraint firstItem="WNG-ny-UfN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X0S-vr-9Q4"/>
+                            <constraint firstItem="AE2-2d-cp3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X3J-QB-7Xg"/>
+                            <constraint firstItem="p8j-zP-Fah" firstAttribute="centerY" secondItem="WNG-ny-UfN" secondAttribute="centerY" id="cNr-Jo-Isq"/>
+                            <constraint firstItem="7br-0f-CTn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g33-Ax-fwf"/>
+                            <constraint firstItem="mIJ-rP-7Rr" firstAttribute="height" secondItem="WNG-ny-UfN" secondAttribute="height" id="iAR-dj-Ve2"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mIJ-rP-7Rr" secondAttribute="bottom" constant="20" id="iAS-3x-G5W"/>
+                            <constraint firstItem="AE2-2d-cp3" firstAttribute="width" secondItem="WNG-ny-UfN" secondAttribute="width" id="iO7-Kb-dIj"/>
+                            <constraint firstItem="qKh-7W-coP" firstAttribute="centerY" secondItem="mIJ-rP-7Rr" secondAttribute="centerY" id="ixK-Qe-1Hf"/>
+                            <constraint firstItem="AE2-2d-cp3" firstAttribute="height" secondItem="WNG-ny-UfN" secondAttribute="height" id="mNb-JI-LJf"/>
+                            <constraint firstItem="mIJ-rP-7Rr" firstAttribute="width" secondItem="WNG-ny-UfN" secondAttribute="width" id="one-jA-crA"/>
+                            <constraint firstItem="7br-0f-CTn" firstAttribute="top" secondItem="WNG-ny-UfN" secondAttribute="bottom" id="tmF-eo-pen"/>
+                            <constraint firstItem="hrv-qA-D5T" firstAttribute="centerY" secondItem="7br-0f-CTn" secondAttribute="centerY" id="uRp-lC-Xl0"/>
+                            <constraint firstItem="WNG-ny-UfN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="yPm-2J-dR3"/>
+                            <constraint firstItem="PDc-ci-eBE" firstAttribute="centerX" secondItem="AE2-2d-cp3" secondAttribute="centerX" id="yl1-UF-ilZ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="72l-7N-q4s"/>
+                                <exclude reference="SSI-QL-q7p"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="gIf-ta-9Qg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="459" y="429"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="FzI-4T-Il3">
+            <objects>
+                <navigationController id="rmQ-J7-GHF" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mVg-QK-grw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="T4p-wI-teD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qZi-ul-BOz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-340" y="429"/>
+        </scene>
+        <!--React Native View Controller-->
+        <scene sceneID="QL1-4r-oeE">
+            <objects>
+                <viewController id="HJg-zF-PBE" customClass="ReactNativeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iRV-5n-oCK"/>
+                        <viewControllerLayoutGuide type="bottom" id="Vft-Ch-JWJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yAk-uM-JSb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LcA-iL-gN2" customClass="ReactNativeAnimationView">
+                                <rect key="frame" x="40" y="114" width="520" height="436"/>
+                                <color key="backgroundColor" red="0.1299978484" green="1" blue="0.81201050389999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Vft-Ch-JWJ" firstAttribute="top" secondItem="LcA-iL-gN2" secondAttribute="bottom" constant="50" id="RAg-0n-lHR"/>
+                            <constraint firstItem="LcA-iL-gN2" firstAttribute="leading" secondItem="yAk-uM-JSb" secondAttribute="leadingMargin" constant="20" id="Tyk-gH-fWW"/>
+                            <constraint firstItem="LcA-iL-gN2" firstAttribute="top" secondItem="iRV-5n-oCK" secondAttribute="bottom" constant="50" id="aYf-pt-3tb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LcA-iL-gN2" secondAttribute="trailing" constant="20" id="cZS-c9-hPa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="AnimationView" destination="LcA-iL-gN2" id="fFa-V0-z2A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lH1-yh-N09" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1285" y="-230"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="h2f-wx-72f">
+            <objects>
+                <viewController id="jgV-qK-l3m" customClass="CSSViewController" customModule="ReactNativeAnimationComparison" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hlj-SB-nKM"/>
+                        <viewControllerLayoutGuide type="bottom" id="fQc-yk-vs1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2S3-bm-q16">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ias-5w-78s">
+                                <rect key="frame" x="20" y="114" width="560" height="436"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ias-5w-78s" firstAttribute="leading" secondItem="2S3-bm-q16" secondAttribute="leadingMargin" id="LbW-RO-NJI"/>
+                            <constraint firstItem="Ias-5w-78s" firstAttribute="top" secondItem="Hlj-SB-nKM" secondAttribute="bottom" constant="50" id="ZGC-Vx-CfC"/>
+                            <constraint firstItem="fQc-yk-vs1" firstAttribute="top" secondItem="Ias-5w-78s" secondAttribute="bottom" constant="50" id="gAt-1t-6YV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ias-5w-78s" secondAttribute="trailing" id="zRw-XA-tKL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animationView" destination="Ias-5w-78s" id="4Kx-O8-sQk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fac-OU-KWl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="437" y="1210"/>
+        </scene>
+        <!--Native View Controller-->
+        <scene sceneID="7vm-4T-6Kp">
+            <objects>
+                <viewController id="cnC-1g-DAU" customClass="NativeViewController" customModule="ReactNativeAnimationComparison" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q6S-9Z-SGL"/>
+                        <viewControllerLayoutGuide type="bottom" id="WGA-8k-zsn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RfN-1e-oHS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jIR-fP-gjS">
+                                <rect key="frame" x="250" y="250" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.1299978484" green="1" blue="0.81201050389999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jIR-fP-gjS" secondAttribute="height" multiplier="1:1" id="VQv-qZ-fQ8"/>
+                                    <constraint firstAttribute="width" constant="100" id="qPz-2l-FyE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jIR-fP-gjS" firstAttribute="centerY" secondItem="RfN-1e-oHS" secondAttribute="centerY" id="Hwj-Md-Lor"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jIR-fP-gjS" secondAttribute="trailing" constant="230" id="IfM-ea-dcC"/>
+                            <constraint firstItem="jIR-fP-gjS" firstAttribute="leading" secondItem="RfN-1e-oHS" secondAttribute="leadingMargin" constant="230" id="VFC-M8-71T"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="leading" destination="VFC-M8-71T" id="NUb-Ck-wbz"/>
+                        <outlet property="trailing" destination="IfM-ea-dcC" id="E7T-A5-uWP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x4c-0k-XWt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1285" y="1210"/>
+        </scene>
+        <!--Java Script View Controller-->
+        <scene sceneID="rij-UJ-54h">
+            <objects>
+                <viewController id="aqB-66-eYC" customClass="JavaScriptViewController" customModule="ReactNativeAnimationComparison" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hX8-MU-9cE"/>
+                        <viewControllerLayoutGuide type="bottom" id="wOL-jC-amm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LjE-vi-MZz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gfU-dc-Nw4">
+                                <rect key="frame" x="20" y="114" width="560" height="436"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="gfU-dc-Nw4" secondAttribute="trailing" id="KcF-P0-qd4"/>
+                            <constraint firstItem="wOL-jC-amm" firstAttribute="top" secondItem="gfU-dc-Nw4" secondAttribute="bottom" constant="50" id="ceP-bf-Pga"/>
+                            <constraint firstItem="gfU-dc-Nw4" firstAttribute="top" secondItem="hX8-MU-9cE" secondAttribute="bottom" constant="50" id="f1S-JT-out"/>
+                            <constraint firstItem="gfU-dc-Nw4" firstAttribute="leading" secondItem="LjE-vi-MZz" secondAttribute="leadingMargin" id="hgp-cu-4gO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animationView" destination="gfU-dc-Nw4" id="whO-1Y-AXD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jDf-cP-RD9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1285" y="453"/>
+        </scene>
+    </scenes>
+</document>

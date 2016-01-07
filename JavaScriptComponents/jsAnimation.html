@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    function loop() {
+      $("#box").animate({right: ($(window).width() - $("#box").width())}, 700);
+      $("#box").animate({right: 0}, 700, function() {
+        loop();
+      });
+    }
+    loop()
+});
+</script>
+</head>
+<body>
+<div id="box" style="background:#98bf21;height:100px;width:100px;margin:6px;position:absolute;right:0;"></div>
+
+</body>
+</html>

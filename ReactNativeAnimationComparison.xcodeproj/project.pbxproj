@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93C1610F76366C62A872B654 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2AE2BA335FA6DFA9BB4B70 /* libPods.a */; };
+		B3B606ED1C3CC24A00746F19 /* JavaScriptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B606EC1C3CC24A00746F19 /* JavaScriptViewController.swift */; };
+		B3C262CB1C3B3F9400DA2ABF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C262CA1C3B3F9400DA2ABF /* AppDelegate.swift */; };
+		B3C262CD1C3B3F9400DA2ABF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C262CC1C3B3F9400DA2ABF /* ViewController.swift */; };
+		B3C262D01C3B3F9400DA2ABF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C262CE1C3B3F9400DA2ABF /* Main.storyboard */; };
+		B3C262D21C3B3F9400DA2ABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C262D11C3B3F9400DA2ABF /* Assets.xcassets */; };
+		B3C262D51C3B3F9400DA2ABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C262D31C3B3F9400DA2ABF /* LaunchScreen.storyboard */; };
+		B3C262DF1C3B479C00DA2ABF /* ReactNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C262DE1C3B479C00DA2ABF /* ReactNativeViewController.m */; };
+		B3C262E21C3B47EC00DA2ABF /* ReactNativeAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C262E11C3B47EC00DA2ABF /* ReactNativeAnimationView.m */; };
+		B3C262E71C3B91AE00DA2ABF /* NativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C262E61C3B91AE00DA2ABF /* NativeViewController.swift */; };
+		B3D9B81A1C3CDE330015409C /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = B3D9B8181C3CDE330015409C /* jquery.min.js */; };
+		B3D9B81B1C3CDE330015409C /* jsAnimation.html in Resources */ = {isa = PBXBuildFile; fileRef = B3D9B8191C3CDE330015409C /* jsAnimation.html */; };
+		B3D9B81D1C3CE0210015409C /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = B3D9B81C1C3CE0210015409C /* index.ios.js */; };
+		B3FBF0931C3DED64007E4ACC /* cssAnimation.html in Resources */ = {isa = PBXBuildFile; fileRef = B3FBF0921C3DED64007E4ACC /* cssAnimation.html */; };
+		B3FBF0951C3DF0EF007E4ACC /* CSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBF0941C3DF0EF007E4ACC /* CSSViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E2AE2BA335FA6DFA9BB4B70 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		616FCF9349275274245796DC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A660B0D6DB141D7A87095BF9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B3B606EC1C3CC24A00746F19 /* JavaScriptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JavaScriptViewController.swift; sourceTree = "<group>"; };
+		B3C262C71C3B3F9400DA2ABF /* ReactNativeAnimationComparison.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeAnimationComparison.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C262CA1C3B3F9400DA2ABF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3C262CC1C3B3F9400DA2ABF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3C262CF1C3B3F9400DA2ABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3C262D11C3B3F9400DA2ABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3C262D41C3B3F9400DA2ABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3C262D61C3B3F9400DA2ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C262DC1C3B479C00DA2ABF /* ReactNativeAnimationComparison-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativeAnimationComparison-Bridging-Header.h"; sourceTree = "<group>"; };
+		B3C262DD1C3B479C00DA2ABF /* ReactNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactNativeViewController.h; sourceTree = "<group>"; };
+		B3C262DE1C3B479C00DA2ABF /* ReactNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactNativeViewController.m; sourceTree = "<group>"; };
+		B3C262E01C3B47EC00DA2ABF /* ReactNativeAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactNativeAnimationView.h; sourceTree = "<group>"; };
+		B3C262E11C3B47EC00DA2ABF /* ReactNativeAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactNativeAnimationView.m; sourceTree = "<group>"; };
+		B3C262E61C3B91AE00DA2ABF /* NativeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeViewController.swift; sourceTree = "<group>"; };
+		B3D9B8181C3CDE330015409C /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = JavaScriptComponents/jquery.min.js; sourceTree = SOURCE_ROOT; };
+		B3D9B8191C3CDE330015409C /* jsAnimation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = jsAnimation.html; path = JavaScriptComponents/jsAnimation.html; sourceTree = SOURCE_ROOT; };
+		B3D9B81C1C3CE0210015409C /* index.ios.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = index.ios.js; path = ReactNativeComponents/index.ios.js; sourceTree = "<group>"; };
+		B3FBF0921C3DED64007E4ACC /* cssAnimation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = cssAnimation.html; path = CssComponents/cssAnimation.html; sourceTree = SOURCE_ROOT; };
+		B3FBF0941C3DF0EF007E4ACC /* CSSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSSViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3C262C41C3B3F9400DA2ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C1610F76366C62A872B654 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72534289F82FC6671F9454F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E2AE2BA335FA6DFA9BB4B70 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3C262BE1C3B3F9400DA2ABF = {
+			isa = PBXGroup;
+			children = (
+				B3D9B81C1C3CE0210015409C /* index.ios.js */,
+				B3C262C91C3B3F9400DA2ABF /* ReactNativeAnimationComparison */,
+				B3C262C81C3B3F9400DA2ABF /* Products */,
+				DDA9C18977D2A41625E5FCAF /* Pods */,
+				72534289F82FC6671F9454F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3C262C81C3B3F9400DA2ABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3C262C71C3B3F9400DA2ABF /* ReactNativeAnimationComparison.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3C262C91C3B3F9400DA2ABF /* ReactNativeAnimationComparison */ = {
+			isa = PBXGroup;
+			children = (
+				B3C262CA1C3B3F9400DA2ABF /* AppDelegate.swift */,
+				B3C262CC1C3B3F9400DA2ABF /* ViewController.swift */,
+				B3C262CE1C3B3F9400DA2ABF /* Main.storyboard */,
+				B3C262D11C3B3F9400DA2ABF /* Assets.xcassets */,
+				B3C262D31C3B3F9400DA2ABF /* LaunchScreen.storyboard */,
+				B3C262D61C3B3F9400DA2ABF /* Info.plist */,
+				B3C262DD1C3B479C00DA2ABF /* ReactNativeViewController.h */,
+				B3C262DE1C3B479C00DA2ABF /* ReactNativeViewController.m */,
+				B3C262DC1C3B479C00DA2ABF /* ReactNativeAnimationComparison-Bridging-Header.h */,
+				B3C262E01C3B47EC00DA2ABF /* ReactNativeAnimationView.h */,
+				B3C262E11C3B47EC00DA2ABF /* ReactNativeAnimationView.m */,
+				B3C262E61C3B91AE00DA2ABF /* NativeViewController.swift */,
+				B3B606EC1C3CC24A00746F19 /* JavaScriptViewController.swift */,
+				B3D9B8181C3CDE330015409C /* jquery.min.js */,
+				B3D9B8191C3CDE330015409C /* jsAnimation.html */,
+				B3FBF0921C3DED64007E4ACC /* cssAnimation.html */,
+				B3FBF0941C3DF0EF007E4ACC /* CSSViewController.swift */,
+			);
+			path = ReactNativeAnimationComparison;
+			sourceTree = "<group>";
+		};
+		DDA9C18977D2A41625E5FCAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A660B0D6DB141D7A87095BF9 /* Pods.debug.xcconfig */,
+				616FCF9349275274245796DC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3C262C61C3B3F9400DA2ABF /* ReactNativeAnimationComparison */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C262D91C3B3F9400DA2ABF /* Build configuration list for PBXNativeTarget "ReactNativeAnimationComparison" */;
+			buildPhases = (
+				911958CA679F807AEC7DEA81 /* Check Pods Manifest.lock */,
+				B3C262C31C3B3F9400DA2ABF /* Sources */,
+				B3C262C41C3B3F9400DA2ABF /* Frameworks */,
+				B3C262C51C3B3F9400DA2ABF /* Resources */,
+				014B763B4EF48FB1F150526D /* Embed Pods Frameworks */,
+				2D582D1916AD2ED5AD367D66 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativeAnimationComparison;
+			productName = ReactNativeAnimationComparison;
+			productReference = B3C262C71C3B3F9400DA2ABF /* ReactNativeAnimationComparison.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3C262BF1C3B3F9400DA2ABF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Bryce Pavey";
+				TargetAttributes = {
+					B3C262C61C3B3F9400DA2ABF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4GSX22VM4P;
+					};
+				};
+			};
+			buildConfigurationList = B3C262C21C3B3F9400DA2ABF /* Build configuration list for PBXProject "ReactNativeAnimationComparison" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3C262BE1C3B3F9400DA2ABF;
+			productRefGroup = B3C262C81C3B3F9400DA2ABF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3C262C61C3B3F9400DA2ABF /* ReactNativeAnimationComparison */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3C262C51C3B3F9400DA2ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D9B81D1C3CE0210015409C /* index.ios.js in Resources */,
+				B3C262D51C3B3F9400DA2ABF /* LaunchScreen.storyboard in Resources */,
+				B3C262D21C3B3F9400DA2ABF /* Assets.xcassets in Resources */,
+				B3D9B81A1C3CDE330015409C /* jquery.min.js in Resources */,
+				B3D9B81B1C3CDE330015409C /* jsAnimation.html in Resources */,
+				B3FBF0931C3DED64007E4ACC /* cssAnimation.html in Resources */,
+				B3C262D01C3B3F9400DA2ABF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		014B763B4EF48FB1F150526D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D582D1916AD2ED5AD367D66 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		911958CA679F807AEC7DEA81 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3C262C31C3B3F9400DA2ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FBF0951C3DF0EF007E4ACC /* CSSViewController.swift in Sources */,
+				B3C262E71C3B91AE00DA2ABF /* NativeViewController.swift in Sources */,
+				B3C262DF1C3B479C00DA2ABF /* ReactNativeViewController.m in Sources */,
+				B3C262CD1C3B3F9400DA2ABF /* ViewController.swift in Sources */,
+				B3B606ED1C3CC24A00746F19 /* JavaScriptViewController.swift in Sources */,
+				B3C262E21C3B47EC00DA2ABF /* ReactNativeAnimationView.m in Sources */,
+				B3C262CB1C3B3F9400DA2ABF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3C262CE1C3B3F9400DA2ABF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C262CF1C3B3F9400DA2ABF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3C262D31C3B3F9400DA2ABF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C262D41C3B3F9400DA2ABF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3C262D71C3B3F9400DA2ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3C262D81C3B3F9400DA2ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3C262DA1C3B3F9400DA2ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A660B0D6DB141D7A87095BF9 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ReactNativeAnimationComparison/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LynxIT.ReactNativeAnimationComparison;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactNativeAnimationComparison/ReactNativeAnimationComparison-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3C262DB1C3B3F9400DA2ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 616FCF9349275274245796DC /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ReactNativeAnimationComparison/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LynxIT.ReactNativeAnimationComparison;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactNativeAnimationComparison/ReactNativeAnimationComparison-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3C262C21C3B3F9400DA2ABF /* Build configuration list for PBXProject "ReactNativeAnimationComparison" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C262D71C3B3F9400DA2ABF /* Debug */,
+				B3C262D81C3B3F9400DA2ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C262D91C3B3F9400DA2ABF /* Build configuration list for PBXNativeTarget "ReactNativeAnimationComparison" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C262DA1C3B3F9400DA2ABF /* Debug */,
+				B3C262DB1C3B3F9400DA2ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3C262BF1C3B3F9400DA2ABF /* Project object */;
+}

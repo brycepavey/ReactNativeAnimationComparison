@@ -1,0 +1,35 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <div>
+     <div id="rectangle"></div>
+    </div>
+  </body>
+</html>
+
+<style media="screen" type="text/css">
+#rectangle{
+    width:100px;
+    height:100px;
+    vertical-align: middle;
+    background:blue;
+    animation-duration: 0.7s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: calc(100% - 100px);
+  }
+
+  to {
+    margin-left: 0%;
+
+  }
+}
+</style>
